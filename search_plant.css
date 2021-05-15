@@ -1,0 +1,56 @@
+body{
+    background-image: url("bg-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.dashboard-nav{
+    padding-top:5px;
+} 
+
+
+.dashboard-nav .row .column-1{
+    width:33%;
+    border-bottom: 2px solid black;
+    height: 8vh;
+    z-index: 100;
+}
+
+.dashboard-nav h1{
+    font-size:26px;
+    margin: 10px 0px 0px 0px !important;
+
+}
+
+.dashboard-nav h2{
+    font-size: 20px;
+     margin: 12px 0px 0px 0px;
+}
+
+.search_plant_form{
+    width:700px;
+    height: 330px;
+    margin:0 auto;
+  transform: translateY(30%);
+}
+
+.search_plant_form .row{
+    width:100%
+}
+
+.search_plant_form .row .col{
+    font-weight: bold;
+}
+.search_plant_form .row .col input{
+    height: 60px;
+}
+
+.btn-search{
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    font-size:26px;
+}

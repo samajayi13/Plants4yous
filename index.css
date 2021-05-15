@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  overflow-x: hidden;
+  background-color: #fcfcfc; }
+
+.navbar-brand img {
+  width: 120px !important; }
+
+.form-inline input {
+  background-color: inherit;
+  border: none; }
+  .form-inline input::placeholder {
+    font-size: 24px;
+    font-weight: 700; }
+  .form-inline input:active, .form-inline input:focus {
+    border: none !important;
+    background-color: inherit;
+    border-color: #cccccc;
+    box-shadow: none; }
+  .form-inline input:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+.main {
+  padding-top: 10%; }
+  .main div h1 {
+    color: #007bff;
+    font-weight: 700; }
+
+.sign-btn {
+  border-radius: 590px;
+  font-size: 30px;
+  text-transform: uppercase;
+  width: 200px;
+  padding: 15px 20px; }
+
+.sign-up-form form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  width: 600px; }
+  .sign-up-form form .heading {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 46px; }
+
+.form-group {
+  margin-left: 100px; }
+
+.sign-up-input {
+  width: 300px !important;
+  border: none !important;
+  border-bottom: 2px solid lightgray !important; }
+
+.experinece-img {
+  width: 150px !important; }
+
+.expeience-btn {
+  padding: 20px 5px;
+  width: 200px;
+  font-size: 30px; }
+
+.experinece-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  border: 1px solid black;
+  width: 600px; }
+
+.profile-label {
+  width: 200px !important; }
+
+.profile-settings-input {
+  width: 400px;
+  border: none !important;
+  border-bottom: 2px solid lightgray !important; }
+
+.profile-settings-label {
+  font-size: 20px;
+  font-weight: 600; }
+
+.dashboard-nav {
+  padding-top: 5px; }
+  .dashboard-nav .row .column-1 {
+    width: 33%;
+    border-bottom: 2px solid black;
+    height: 8vh;
+    z-index: 100; }
+    .dashboard-nav .row .column-1 h1 {
+      font-size: 26px;
+      margin: 10px 0px 0px 0px !important; }
+    .dashboard-nav .row .column-1 h2 {
+      font-size: 20px;
+      margin: 12px 0px 0px 0px; }
+
+.dashboard-main .row {
+  border-bottom: 1px black solid; }
+  .dashboard-main .row .column img {
+    height: 100px;
+    margin-left: 80px;
+    margin-top: -40px; }
+  .dashboard-main .row .column .time {
+    font-size: 30px;
+    display: inline-block;
+    margin-top: -10px;
+    transform: translateY(-12px);
+    font-size: 2.5rem; }
+  .dashboard-main .row .column h1 {
+    margin-top: 30px; }
+    .dashboard-main .row .column h1:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+  .dashboard-main .row .column:not(:last-child) {
+    width: 33vw;
+    border-right: 1px black solid;
+    height: 16vh; }
+  .dashboard-main .row.dashboard-main-row {
+    height: 55vh; }
+    .dashboard-main .row.dashboard-main-row .dashboard-main-row-column {
+      width: 50vw; }
+      .dashboard-main .row.dashboard-main-row .dashboard-main-row-column:not(:last-child) {
+        border-right: 1px solid black; }
+      .dashboard-main .row.dashboard-main-row .dashboard-main-row-column hr {
+        background-color: black; }
+      .dashboard-main .row.dashboard-main-row .dashboard-main-row-column .tips li {
+        margin-bottom: 5vh;
+        font-size: 20px;
+        font-weight: 400; }
+        .dashboard-main .row.dashboard-main-row .dashboard-main-row-column .tips li:hover {
+          cursor: pointer;
+          text-decoration: underline; }
+
+.search-question {
+  margin-left: 130px; }
+
+.no-plants-planted {
+  margin-top: 150px;
+  font-size: 40px; }
+
+.bottom-column {
+  width: 33vw;
+  height: 19vh; }
+  .bottom-column:not(:last-child) {
+    border-right: 1px solid black; }
+  .bottom-column h4 {
+    margin-top: 60px; }
+    .bottom-column h4:hover {
+      text-decoration: underline; }
+
+.plant-img {
+  height: 220px !important;
+  margin-left: 280px; }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #007bff; }
+
+.carousel-item img:hover {
+  cursor: pointer; }
